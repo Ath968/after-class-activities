@@ -1,5 +1,3 @@
-import cv2
-import matplotlib.pyplot as plt
 
 image_path = "🗿🗿🗿.png"
 image = cv2.imread(image_path)
@@ -42,3 +40,4 @@ plt.imshow(image_rgb)
 plt.title('Annotated Image with Regions, Centers, and Bi-Directional Height Arrow')
 plt.axis('off')
 plt.show()
+
